@@ -1,0 +1,8 @@
+# Predicts which pixels in an RGBD image are hand pixels.
+
+sensor_msgs/Image rgb # RGB image, of type bgr8, height and width a multiple of 16.
+sensor_msgs/Image depth_registered # Depth image (registered to RGB), of type 16UC1 or 32FC1. In both cases, values indicate millimeters from camera.
+---
+# An image in which each pixel is predicted to either be a hand or not a hand.
+# Hand pixels are non-zero, background pixels are zero.
+sensor_msgs/Image prediction
