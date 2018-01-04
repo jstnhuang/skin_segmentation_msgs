@@ -1,0 +1,4 @@
+string rgb_topic
+string depth_topic
+sensor_msgs/CameraInfo camera_info # For RGB / depth registered
+---
