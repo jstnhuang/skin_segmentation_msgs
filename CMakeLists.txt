@@ -56,6 +56,7 @@ add_message_files(
 add_service_files(
   FILES
   AdvanceSkeleton.srv
+  GetSkeletonState.srv
   PredictHands.srv
   ResetSkeletonTracker.srv
 )
