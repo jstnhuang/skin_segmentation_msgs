@@ -8,6 +8,7 @@ project(skin_segmentation_msgs)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
+  geometry_msgs
   message_generation
   sensor_msgs
 )
@@ -71,6 +72,7 @@ add_service_files(
 ## Generate added messages and services with any dependencies listed here
 generate_messages(
   DEPENDENCIES
+  geometry_msgs
   sensor_msgs
 )
 
@@ -106,7 +108,7 @@ generate_messages(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES skin_segmentation_msgs
-  CATKIN_DEPENDS message_runtime sensor_msgs
+  CATKIN_DEPENDS geometry_msgs message_runtime sensor_msgs
 #  DEPENDS system_lib
 )
 

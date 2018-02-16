@@ -2,3 +2,5 @@ sensor_msgs/Image rgb
 sensor_msgs/Image depth
 ---
 skin_segmentation_msgs/NerfJointStates joint_states
+geometry_msgs/Pose left_wrist
+geometry_msgs/Pose right_wrist

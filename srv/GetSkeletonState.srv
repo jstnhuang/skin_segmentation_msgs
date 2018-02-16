@@ -1,2 +1,4 @@
 ---
 skin_segmentation_msgs/NerfJointStates nerf_joint_states
+geometry_msgs/Pose left_wrist
+geometry_msgs/Pose right_wrist
